@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/alluser/Desktop'
+let g:netrw_dirhist_2='/Users/alluser'
+let g:netrw_dirhist_3='/Users/alluser/Dropbox'
+let g:netrw_dirhist_4='/Users/alluser/Dropbox/2012'
+let g:netrw_dirhist_5='/Users/alluser/Dropbox/2012/oguri'
+let g:netrw_dirhist_6='/Users/alluser/Dropbox/2012/oguri/original'
+let g:netrw_dirhist_7='/Users/alluser/Dropbox/2012/oguri/original/source'
+let g:netrw_dirhist_8='/cygdrive/c/Users/yoshi/Dropbox/2012/oguri/original/source'
+let g:netrw_dirhist_9='/Users/alluser'
