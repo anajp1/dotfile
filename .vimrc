@@ -335,11 +335,11 @@ autocmd BufReadPost *
 	\ endif
 
 "ステータスラインに文字コードと改行文字を表示する（ウインドウ幅によって表示項目を調整）
-if winwidth(0) >= 120
-    set statusline=%<[%n]%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%y\ %(%{GitBranch()}\ %)\ %F%=[%{GetB()}]\ %l,%c%V%8P
-else
-    set statusline=%<[%n]%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%y\ %(%{GitBranch()}\ %)\ %F%=[%{GetB()}]\ %l,%c%V%8P
-endif
+"if winwidth(0) >= 120
+"    set statusline=%<[%n]%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%y\ %(%{GitBranch()}\ %)\ %F%=[%{GetB()}]\ %l,%c%V%8P
+"else
+"    set statusline=%<[%n]%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%y\ %(%{GitBranch()}\ %)\ %F%=[%{GetB()}]\ %l,%c%V%8P
+"endif
 
 
 "ESC２回押しでハイライト消去
@@ -355,6 +355,9 @@ nmap g# g#zz
 
 " qq で上書き保存して終了 Shift + zz
 nmap qq :wq<CR>
+
+" mm で括弧ないを選択
+nmap mm vaB
 
 
 """plugin関係
@@ -434,4 +437,4 @@ else
 endif
 
 
-
+"github test"
