@@ -1,0 +1,5 @@
+what is this?
+-dotfile
+ -.vim/					// vim plugin folder	
+ -.vimrc				// vim run control
+ -.bashrc				// bash run control
